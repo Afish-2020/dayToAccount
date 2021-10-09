@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf40025a-8948-46c9-acf1-15a051aebc33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Box.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/helper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,9 @@
       <workItem from="1633692671624" duration="962000" />
       <workItem from="1633694039733" duration="6876000" />
       <workItem from="1633701302788" duration="18000" />
-      <workItem from="1633701569435" duration="1811000" />
+      <workItem from="1633701569435" duration="2174000" />
+      <workItem from="1633766975594" duration="20000" />
+      <workItem from="1633770690755" duration="5498000" />
     </task>
     <servers />
   </component>
