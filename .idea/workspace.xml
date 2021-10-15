@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf40025a-8948-46c9-acf1-15a051aebc33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/Wrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
     </list>
@@ -68,7 +70,7 @@
       <workItem from="1634108297956" duration="18000" />
       <workItem from="1634127868650" duration="4496000" />
       <workItem from="1634215146518" duration="4996000" />
-      <workItem from="1634299051517" duration="839000" />
+      <workItem from="1634299051517" duration="2599000" />
     </task>
     <servers />
   </component>
