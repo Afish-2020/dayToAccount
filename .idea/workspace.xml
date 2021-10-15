@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf40025a-8948-46c9-acf1-15a051aebc33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/Wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" afterDir="false" />
+    <list default="true" id="cf40025a-8948-46c9-acf1-15a051aebc33" name="Default Changelist" comment="重构NumberPadSection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +73,16 @@
       <workItem from="1634108297956" duration="18000" />
       <workItem from="1634127868650" duration="4496000" />
       <workItem from="1634215146518" duration="4996000" />
-      <workItem from="1634299051517" duration="2599000" />
+      <workItem from="1634299051517" duration="5946000" />
     </task>
+    <task id="LOCAL-00001" summary="重构NumberPadSection">
+      <created>1634302430274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634302430274</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +99,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重构NumberPadSection" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构NumberPadSection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

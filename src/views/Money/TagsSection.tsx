@@ -33,9 +33,14 @@ const Wrapper = styled.section`
   }
 `
 
-const TagsSection: React.FC = (props) => {
+type Props={
+  value:string[],
+  onChange:(selected:string[])=>void
+}
+
+const TagsSection: React.FC<Props> = (props) => {
   const [tags,setTags] = useState<string[]>(['衣','食','住','行'])
-  const [selectTags,setSelectTags] = useState<string[]>([])
+  const selectedTags = props.value
   const onAddTag = ()=>{
     const tagName = window.prompt('请输入标签名称：')
     if(tagName!==null){
@@ -43,14 +48,14 @@ const TagsSection: React.FC = (props) => {
     }
   }
   const onTaggleTag = (tag:string) =>{
-    const index = selectTags.indexOf(tag)
+    const index = selectedTags.indexOf(tag)
     if(index>=0){
-      setSelectTags(selectTags.filter(t=>t!==tag))
+      props.onChange(selectedTags.filter(t=>t!==tag))
     }else {
-      setSelectTags([...selectTags,tag])
+      props.onChange([...selectedTags,tag])
     }
   }
-  const getClass = (tag:string) =>{return selectTags.indexOf(tag)>=0? 'selected':''}
+  const getClass = (tag:string) =>{return selectedTags.indexOf(tag)>=0? 'selected':''}
   return (<Wrapper>
     <ol>
       {tags.map(tag=><li key={tag} onClick={()=>{onTaggleTag(tag)}} className={ getClass(tag)}>{tag}</li>)}

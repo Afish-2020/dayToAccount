@@ -1,5 +1,5 @@
 import Layout from "components/Layout";
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { CategorySection } from "./Money/CategorySection";
 import { NoteSection } from "./Money/NoteSection";
@@ -12,12 +12,25 @@ const MyLayout = styled(Layout)`
 `
 
 function Money() {
+  const [selected,setSelected] = useState({
+    tags : [] as string[],
+    note : '',
+    catagory : '-' as '-' | '+',
+    amount : 0
+  })
   return (
     <MyLayout>
-      <TagsSection/>
-      <NoteSection/>
-      <CategorySection/>
-      <NumberPadSection/>
+      {selected.amount}
+      <TagsSection value={selected.tags}
+                   onChange = {(tags)=>setSelected({...selected,tags:tags})}/>
+      <NoteSection value={selected.note}
+                   onChange = {(note)=>setSelected({...selected,note:note})}
+      />
+      <CategorySection value={selected.catagory}
+                     onChange = {(catagory)=>setSelected({...selected,catagory:catagory})}
+      />
+      <NumberPadSection value={selected.amount}
+                        onChange={(amount)=>setSelected({...selected,amount:amount})} onOk={()=>{}}/>
     </MyLayout>
   )
 }

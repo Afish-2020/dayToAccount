@@ -19,9 +19,12 @@ const generateOutput = (text:string,output:string) =>{
       }
     case '.':
       if(output.indexOf('.')>=0){
+        console.log('111222')
         return output
       }
+      console.log('111')
         return output+text
+
     case '删除':
       if(output.length===1){
         return ''
