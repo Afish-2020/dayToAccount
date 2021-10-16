@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import React, { useState } from 'react'
+import React from 'react'
+import { useTags } from "useTags"
 
 const Wrapper = styled.section`
   background: #FFFFFF;
@@ -34,31 +35,31 @@ const Wrapper = styled.section`
 `
 
 type Props={
-  value:string[],
-  onChange:(selected:string[])=>void
+  value:number[],
+  onChange:(selected:number[])=>void
 }
 
 const TagsSection: React.FC<Props> = (props) => {
-  const [tags,setTags] = useState<string[]>(['衣','食','住','行'])
-  const selectedTags = props.value
+  const {tags,setTags} = useTags()
+  const selectedTagIds = props.value
   const onAddTag = ()=>{
     const tagName = window.prompt('请输入标签名称：')
     if(tagName!==null){
-      setTags([...tags,tagName])
+      setTags([...tags,{id:Math.random(),name:tagName}])
     }
   }
-  const onTaggleTag = (tag:string) =>{
-    const index = selectedTags.indexOf(tag)
+  const onTaggleTag = (tagId:number) =>{
+    const index = selectedTagIds.indexOf(tagId)
     if(index>=0){
-      props.onChange(selectedTags.filter(t=>t!==tag))
+      props.onChange(selectedTagIds.filter(t=>t!==tagId))
     }else {
-      props.onChange([...selectedTags,tag])
+      props.onChange([...selectedTagIds,tagId])
     }
   }
-  const getClass = (tag:string) =>{return selectedTags.indexOf(tag)>=0? 'selected':''}
+  const getClass = (tagId:number) =>{return selectedTagIds.indexOf(tagId)>=0? 'selected':''}
   return (<Wrapper>
     <ol>
-      {tags.map(tag=><li key={tag} onClick={()=>{onTaggleTag(tag)}} className={ getClass(tag)}>{tag}</li>)}
+      {tags.map(tag=><li key={tag.id} onClick={()=>{onTaggleTag(tag.id)}} className={ getClass(tag.id)}>{tag.name}</li>)}
     </ol>
     <button onClick={onAddTag}>新增标签</button>
   </Wrapper>)
