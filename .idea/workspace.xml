@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf40025a-8948-46c9-acf1-15a051aebc33" name="Default Changelist" comment="重构NumberPadSection">
-      <change afterPath="$PROJECT_DIR$/src/useTags.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/right.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="D:\application\webstorm\WebStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -73,7 +71,7 @@
       <workItem from="1634127868650" duration="4496000" />
       <workItem from="1634215146518" duration="4996000" />
       <workItem from="1634299051517" duration="7424000" />
-      <workItem from="1634364176517" duration="1943000" />
+      <workItem from="1634364176517" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="重构NumberPadSection">
       <created>1634302430274</created>
