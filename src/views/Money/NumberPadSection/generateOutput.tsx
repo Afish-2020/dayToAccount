@@ -1,4 +1,3 @@
-import React from 'react'
 
 const generateOutput = (text:string,output:string) =>{
   switch (text){
