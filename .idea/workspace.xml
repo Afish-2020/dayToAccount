@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf40025a-8948-46c9-acf1-15a051aebc33" name="Default Changelist" comment="重构NumberPadSection">
-      <change afterPath="$PROJECT_DIR$/src/lib/Id.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/createId.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Id.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/useTags.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tag.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <workItem from="1634127868650" duration="4496000" />
       <workItem from="1634215146518" duration="4996000" />
       <workItem from="1634299051517" duration="7424000" />
-      <workItem from="1634364176517" duration="14425000" />
+      <workItem from="1634364176517" duration="16386000" />
     </task>
     <task id="LOCAL-00001" summary="重构NumberPadSection">
       <created>1634302430274</created>
