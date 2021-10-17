@@ -1,3 +1,4 @@
+import { Button } from "components/Button";
 import Icon from "components/Icon";
 import Layout from "components/Layout";
 import React from "react";
@@ -18,15 +19,6 @@ background: white;
         padding: 12px 16px 12px 0;
       }
     }    
-`
-
-const Button = styled.button`
-border: none;
-    font-size: 18px;
-    padding: 8px 12px;
-    background: gray;
-    border-radius: 4px;
-    color: white;
 `
 
 const Center = styled.div`
