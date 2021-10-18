@@ -4,10 +4,28 @@ import {useParams} from "react-router-dom";
 import Layout from 'components/Layout';
 import Icon from 'components/Icon';
 import { Button } from 'components/Button';
+import styled from 'styled-components';
+import { Input } from 'components/Input';
+import { Center } from 'components/Center';
+import { Space } from 'components/Space';
 
 type Params = {
   id:string
 }
+
+const Topbar = styled.header`
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 20px;
+  padding: 14px;
+  background: white;
+`
+
+const InputWrapper = styled.div`
+background: white;
+  padding: 0 16px;
+`
 
 const Tag:React.FC = () =>{
   const {findTag} = useTags()
@@ -15,19 +33,20 @@ const Tag:React.FC = () =>{
   const tag = findTag(parseInt(id))
   return(
     <Layout>
-      <header>
+      <Topbar>
         <Icon name='left' />
         编辑标签
-      </header>
-      <div>
-        <label>
-          <span>标签名</span>
-          <input type="text" placeholder='标签名'/>
-        </label>
-      </div>
-      <div>
+        <Icon />
+      </Topbar>
+      <InputWrapper>
+        <Input label='标签名' type='text' placeholder='标签名' value={tag.name}/>
+      </InputWrapper>
+      <Center>
+        <Space />
+        <Space />
+        <Space />
         <Button>编辑标签</Button>
-      </div>
+      </Center>
     </Layout>
   )
 }
