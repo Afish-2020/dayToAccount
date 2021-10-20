@@ -19,9 +19,13 @@ const defaultFormData = {
   amount : 0
 }
 
+const WrapperCategory = styled.div`
+  background: #c4c4c4;
+`
+
 function Money() {
   const [selected,setSelected] = useState(defaultFormData);
-  const {records,addRecord}=useRecords()
+  const {addRecord}=useRecords()
   const onChange = (obj:Partial<typeof selected>) =>{
     setSelected({
       ...selected,
@@ -43,9 +47,11 @@ function Money() {
       <NoteSection value={selected.note}
                    onChange = {note=>onChange({note})}
       />
+      <WrapperCategory>
       <CategorySection value={selected.catagory}
                      onChange = {catagory=>onChange({catagory})}
       />
+      </WrapperCategory>
       <NumberPadSection value={selected.amount}
                         onChange={amount=>onChange({amount})}
       onOk={submit}

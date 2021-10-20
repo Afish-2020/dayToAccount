@@ -1,6 +1,6 @@
 import { useUpdate } from "./useUpdate"
 import { createId } from "../lib/createId"
-import {useEffect, useRef, useState } from "react"
+import {useEffect, useState } from "react"
 
 const useTags = () =>{
   const [tags,setTags] = useState<{id:number;name:string}[]>([])
@@ -32,7 +32,11 @@ const useTags = () =>{
       setTags([...tags,{id:createId(),name:tagName}])
     }
   }
-  return {tags,setTags,addTag,findTag,updateTag,deleteTag}
+  const getName = (id:number)=>{
+   const tag = tags.filter(t=>t.id===id)[0]
+    return tag.name
+  }
+  return {tags,getName,setTags,addTag,findTag,updateTag,deleteTag}
 }
 
 export {useTags}

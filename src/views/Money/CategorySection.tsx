@@ -4,8 +4,7 @@ import styled from "styled-components"
 const Wrapper = styled.section`
   font-size: 24px;
 >ul{
-  display: flex;
-  background: #c4c4c4;
+  display: flex;  
   >li{
     width: 50%;
     text-align: center;
