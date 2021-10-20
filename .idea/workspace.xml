@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf40025a-8948-46c9-acf1-15a051aebc33" name="Default Changelist" comment="重构NumberPadSection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useTags.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useUpdate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useUpdate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Statistics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Statistics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +80,7 @@
       <workItem from="1634475355261" duration="2793000" />
       <workItem from="1634556964834" duration="10340000" />
       <workItem from="1634645374172" duration="7775000" />
-      <workItem from="1634698020794" duration="2832000" />
+      <workItem from="1634698020794" duration="4075000" />
     </task>
     <task id="LOCAL-00001" summary="重构NumberPadSection">
       <created>1634302430274</created>
