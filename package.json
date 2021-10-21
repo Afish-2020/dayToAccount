@@ -1,6 +1,7 @@
 {
   "name": "accountbook",
   "version": "0.1.0",
+  "homepage": "https://afish-2020.github.io/dayToAccount-website/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
